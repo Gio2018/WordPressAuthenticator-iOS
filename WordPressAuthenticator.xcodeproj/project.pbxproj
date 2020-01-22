@@ -298,6 +298,14 @@
 			path = Private;
 			sourceTree = "<group>";
 		};
+		3F8604AE23D908DC00AF6974 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF2FC023D7ED7C00D38C77 /* EmailClients.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 		6205895375D954F46B1DFE53 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -480,9 +488,9 @@
 		B5A5273F20B477F70065BE81 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3F8604AE23D908DC00AF6974 /* Configuration */,
 				B5A5274020B478160065BE81 /* Animations */,
 				B5E07FF3208FD13800657A9A /* Assets.xcassets */,
-				3FFF2FC023D7ED7C00D38C77 /* EmailClients.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
