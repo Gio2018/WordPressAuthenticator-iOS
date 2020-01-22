@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/wordpress-mobile/WordPressAuthenticator-iOS.git", :tag => s.version.to_s }
   s.source_files  = 'WordPressAuthenticator/**/*.{h,m,swift}'
   s.private_header_files = "WordPressAuthenticator/Private/*.h"
+  s.resources = "WordPressAuthenticator/Resources/Configuration/*"
   s.resource_bundles = {
     'WordPressAuthenticatorResources': [
       'WordPressAuthenticator/Resources/Assets.xcassets',
-      'WordPressAuthenticator/Resources/Configuration/*.plist',
       'WordPressAuthenticator/Resources/Animations/*.json',
       'WordPressAuthenticator/**/*.{storyboard,xib}'
     ]
