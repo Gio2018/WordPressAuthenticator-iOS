@@ -10,7 +10,7 @@
 		020BE74A23B0BD2E007FE54C /* WordPressAuthenticatorDisplayImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BE74923B0BD2E007FE54C /* WordPressAuthenticatorDisplayImages.swift */; };
 		1A21EE9822832BC300C940C6 /* WordPressComOAuthClientFacade+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A21EE9722832BC200C940C6 /* WordPressComOAuthClientFacade+Swift.swift */; };
 		1A4095182271AEFC009AA86D /* WPAuthenticator-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4095152271AEFC009AA86D /* WPAuthenticator-Swift.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3FFF2FC123D7ED7C00D38C77 /* EmailClients.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF2FC023D7ED7C00D38C77 /* EmailClients.plist */; };
+		3F8604B023D9D66900AF6974 /* EmailClients.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF2FC023D7ED7C00D38C77 /* EmailClients.plist */; };
 		3FFF2FC323D7F53200D38C77 /* AppSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF2FC223D7F53200D38C77 /* AppSelector.swift */; };
 		7A7A9B9CD2D81959F9AB9AF6 /* Pods_WordPressAuthenticator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C736FF243DE333FCAB1C2614 /* Pods_WordPressAuthenticator.framework */; };
 		982C8E7923021C20003F1BA0 /* LoginPrologueLoginMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C8E7823021C20003F1BA0 /* LoginPrologueLoginMethodViewController.swift */; };
@@ -298,12 +298,12 @@
 			path = Private;
 			sourceTree = "<group>";
 		};
-		3F8604AE23D908DC00AF6974 /* Configuration */ = {
+		3F8604AE23D908DC00AF6974 /* SupportedEmailClients */ = {
 			isa = PBXGroup;
 			children = (
 				3FFF2FC023D7ED7C00D38C77 /* EmailClients.plist */,
 			);
-			path = Configuration;
+			path = SupportedEmailClients;
 			sourceTree = "<group>";
 		};
 		6205895375D954F46B1DFE53 /* Pods */ = {
@@ -488,7 +488,7 @@
 		B5A5273F20B477F70065BE81 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3F8604AE23D908DC00AF6974 /* Configuration */,
+				3F8604AE23D908DC00AF6974 /* SupportedEmailClients */,
 				B5A5274020B478160065BE81 /* Animations */,
 				B5E07FF3208FD13800657A9A /* Assets.xcassets */,
 			);
@@ -707,13 +707,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8604B023D9D66900AF6974 /* EmailClients.plist in Resources */,
 				B5E07FF4208FD13800657A9A /* Assets.xcassets in Resources */,
 				B56090CA208A4F5400399AE4 /* NUXButtonView.storyboard in Resources */,
 				B560911E208A555E00399AE4 /* Signup.storyboard in Resources */,
 				B5609118208A555600399AE4 /* SearchTableViewCell.xib in Resources */,
 				B560913F208A563800399AE4 /* Login.storyboard in Resources */,
 				B5609137208A563800399AE4 /* EmailMagicLink.storyboard in Resources */,
-				3FFF2FC123D7ED7C00D38C77 /* EmailClients.plist in Resources */,
 				FF629D9622393500004C4106 /* WordPressAuthenticator.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
