@@ -51,9 +51,21 @@ extension AppSelector {
     /// initializes the picker with a plist file in a specified bundle
     convenience init?(with plistFile: String, in bundle: Bundle, defaultAction: UIAlertAction? = nil) {
 
-        guard let path = bundle.path(forResource: plistFile, ofType: "plist"),
-            let availableApps = NSDictionary(contentsOfFile: path) as? [String: String],
-            !availableApps.isEmpty else {
+        guard let bundlePath = bundle.path(forResource: "WordPressAuthenticatorResources", ofType: "bundle") else {
+            return nil
+        }
+
+        guard let emailBundle = Bundle(path: bundlePath) else {
+            return nil
+        }
+
+        guard let path = emailBundle.path(forResource: plistFile, ofType: "plist") else {
+            return nil
+        }
+        guard let availableApps = NSDictionary(contentsOfFile: path) as? [String: String] else {
+            return nil
+        }
+        guard !availableApps.isEmpty else {
                 return nil
         }
         self.init(with: availableApps, defaultAction: defaultAction)

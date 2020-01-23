@@ -10,7 +10,7 @@
 		020BE74A23B0BD2E007FE54C /* WordPressAuthenticatorDisplayImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BE74923B0BD2E007FE54C /* WordPressAuthenticatorDisplayImages.swift */; };
 		1A21EE9822832BC300C940C6 /* WordPressComOAuthClientFacade+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A21EE9722832BC200C940C6 /* WordPressComOAuthClientFacade+Swift.swift */; };
 		1A4095182271AEFC009AA86D /* WPAuthenticator-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4095152271AEFC009AA86D /* WPAuthenticator-Swift.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3F8604B023D9D66900AF6974 /* EmailClients.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF2FC023D7ED7C00D38C77 /* EmailClients.plist */; };
+		3F8604B123D9DE2000AF6974 /* EmailClients.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3FFF2FC023D7ED7C00D38C77 /* EmailClients.plist */; };
 		3FFF2FC323D7F53200D38C77 /* AppSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF2FC223D7F53200D38C77 /* AppSelector.swift */; };
 		7A7A9B9CD2D81959F9AB9AF6 /* Pods_WordPressAuthenticator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C736FF243DE333FCAB1C2614 /* Pods_WordPressAuthenticator.framework */; };
 		982C8E7923021C20003F1BA0 /* LoginPrologueLoginMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C8E7823021C20003F1BA0 /* LoginPrologueLoginMethodViewController.swift */; };
@@ -134,6 +134,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				3F8604B123D9DE2000AF6974 /* EmailClients.plist in CopyFiles */,
 				B5A5275120B47A540065BE81 /* jetpack.json in CopyFiles */,
 				B5A5275220B47A540065BE81 /* reader.json in CopyFiles */,
 				B5A5275320B47A540065BE81 /* notifications.json in CopyFiles */,
@@ -349,8 +350,8 @@
 		B5609094208A4EAF00399AE4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				B56052A32090B2ED001B91FD /* CircularImageView.swift */,
 				3FFF2FC223D7F53200D38C77 /* AppSelector.swift */,
+				B56052A32090B2ED001B91FD /* CircularImageView.swift */,
 				B5609112208A555500399AE4 /* LoginTextField.swift */,
 				B5609113208A555500399AE4 /* SearchTableViewCell.swift */,
 				B5609114208A555500399AE4 /* SearchTableViewCell.xib */,
@@ -707,7 +708,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8604B023D9D66900AF6974 /* EmailClients.plist in Resources */,
 				B5E07FF4208FD13800657A9A /* Assets.xcassets in Resources */,
 				B56090CA208A4F5400399AE4 /* NUXButtonView.storyboard in Resources */,
 				B560911E208A555E00399AE4 /* Signup.storyboard in Resources */,
